@@ -1,0 +1,306 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Haan YGodic 240,'Helvetica Neue',Arial,sans-serif;
+}
+
+.bg-primary {
+    background-color: #96933b;
+}
+
+
+.navbar-default {
+    border-color: rgba(34,34,34,.05);
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    background-color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+    color: #726f17;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover {
+    color: #d5cf27;
+}
+
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: #726f17;
+}
+
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+}
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
+    color: #726f17;
+}
+
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: #726f17!important;
+    background-color: transparent;
+}
+
+.navbar-default .nav > li.active>a:hover,
+.navbar-default .nav>li.active>a:focus:hover {
+    background-color: transparent;
+}
+
+
+
+header {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    color: #726f17;
+    background-image: url(../image/mainpicture.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .header-content {   
+    position: relative;
+    width: 100%;
+    padding: 200px 15px;
+    text-align: center;
+}
+
+header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+header .header-content .header-content-inner hr {
+    margin: 30px auto;
+    border-color: #726f17;
+}
+
+.glyphicon {
+    font-size: 30px;
+    color: #726f17;
+}
+
+hr {
+    width: 50px;
+    border-color: #726f17;
+    border-width: 3px;
+}
+
+hr.mainhr {
+    width: 500px;
+    border-width: 2px;
+}
+
+hr.light {
+    border-color: #fff;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+section {
+    position: relative;
+    width: 100%;
+
+    text-align: center;
+    background-position: center;
+    padding-top: 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+section .section-text {
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: -15px;
+}
+
+#about .profile {
+    border-radius: 100%;
+    border: 5px solid #f1f1f1;
+}
+
+
+.portfolio-box {
+    display: block;
+    position: relative;
+    margin: 10px;
+    max-width: 650px;
+    border: 1px solid;
+    border-color: #726f17;
+}
+
+.portfolio-box .portfolio-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    background: rgba(114,111,23,.9);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    padding: 0 15px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+
+
+#post .post-item {
+    margin-top: 20px;
+    right: 0;
+}
+
+#post .post-item .post-caption {
+    width: 200px;
+    margin: 20px auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+
+#post .post-item .post-caption h4 {
+    text-transform: none;
+    margin: 0;
+    font-family: Haan YGodic 240,'Helvetica Neue',Arial,sans-serif;
+}
+
+#post * {
+    z-index: 2;
+}
+
+
+.margin {
+    margin-bottom: 70px;
+}
+
+
+
+section#qna .section-heading {
+    color: #fff;
+}
+
+section#qna .form-group {
+    margin-bottom: 25px;
+}
+
+section#qna .form-group input, section#qna .form-group textarea {
+    padding: 20px;
+}
+
+section#qna .form-group input.form-control {
+    height: auto;
+}
+
+section#qna .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#qna .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+
+section#qna ::-webkit-input-placeholder {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#qna :-moz-placeholder {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#qna ::-moz-placeholder {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#qna :-ms-input-placeholder {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#qna .text-danger {
+    color: #e74c3c;
+}
+
+section#qna .send {
+    margin-top: 30px;
+}
+
+
+section#contact img {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
